@@ -26,7 +26,8 @@ timezone: 'Asia/Shanghai'
 # ============================================================================
 # 【重要】博客将嵌入官网 /news/blog/ 路径下
 # 如果博客独立部署，请使用实际域名
-url: https://www.zkzxgzb.com
+url: https://test.zkzxgzb.com
+root: /news/blog/
 permalink: :abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -151,8 +152,8 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - 'zkzxgzb.com'
-    - 'www.zkzxgzb.com'
+    - '*.zkzxgzb.com'
+    - '*.20080601.xyz'
 
 # hexo-generator-json-content - JSON 内容生成
 # 【重要】供学校官网读取博客数据
@@ -184,6 +185,7 @@ jsonContent:
     title: true
     slug: true
     date: true
+    cover: true
     updated: true
     comments: true
     path: true
