@@ -27,7 +27,7 @@ timezone: 'Asia/Shanghai'
 # 【重要】博客将嵌入官网 /news/blog/ 路径下
 # 如果博客独立部署，请使用实际域名
 url: https://test.zkzxgzb.com
-root: /news/blog/
+root: /
 permalink: :abbrlink/
 permalink_defaults:
 pretty_urls:
