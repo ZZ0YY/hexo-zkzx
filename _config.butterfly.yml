@@ -694,7 +694,7 @@ inject:
 
 CDN:
   internal_provider: local
-  third_party_provider: elemecdn
-  version: false
-  custom_format:
+  third_party_provider: custom
+  version: true
+  custom_format: https://cdn.jsdmirror.com/npm/${name}@${version}/${path}
   option:
