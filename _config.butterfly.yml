@@ -694,7 +694,7 @@ inject:
 
 CDN:
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: elemecdn
   version: false
   custom_format:
   option:
