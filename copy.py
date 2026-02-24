@@ -6,7 +6,7 @@ OUTPUT_FILE = "project_snapshot.md"  # 改为 .md 格式，方便在 GitHub/IDE 
 # 增加现代前端常用的忽略项
 IGNORE_DIRS = {
     '.git', 'node_modules', '__pycache__', 'venv', '.vercel', '.vscode', 
-    'dist', 'build', '.next', '.turbo', 'out', 'coverage'
+    'dist', 'build', '.next', '.turbo', 'out', 'coverage','themes','public'
 }
 # 增加常见的非文本后缀
 IGNORE_EXTS = {

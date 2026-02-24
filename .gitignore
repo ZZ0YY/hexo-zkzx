@@ -6,3 +6,7 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+project_snapshot.md
+copy.py
+hexo.txt
+copy.py

@@ -10,6 +10,7 @@
 # - 风格: 正式、庄重、简洁
 #
 # 【官网关联】
+# 官网地址: https://www.zkzxgzb.com
 # 博客将通过 /news/blog/ 路径嵌入官网
 # 导航菜单与官网保持一致，便于用户跳转
 #
@@ -25,16 +26,17 @@ nav:
   fixed: true
 
 # 导航菜单 - 与官网保持一致
+# 【域名已更新】统一使用 www.zkzxgzb.com
 menu:
-  官网首页: https://zkzxgzb.com || fas fa-home
-  学校概况: https://zkzxgzb.com/about || fas fa-school
-  新闻动态: https://zkzxgzb.com/news || fas fa-newspaper
+  官网首页: https://www.zkzxgzb.com || fas fa-home
+  学校概况: https://www.zkzxgzb.com/about || fas fa-school
+  新闻动态: https://www.zkzxgzb.com/news || fas fa-newspaper
   博客首页: / || fas fa-blog
-  课程教学: https://zkzxgzb.com/courses || fas fa-book
-  师资力量: https://zkzxgzb.com/teachers || fas fa-chalkboard-teacher
-  校园活动: https://zkzxgzb.com/events || fas fa-calendar-alt
-  办学成果: https://zkzxgzb.com/achievements || fas fa-trophy
-  联系我们: https://zkzxgzb.com/contact || fas fa-envelope
+  课程教学: https://www.zkzxgzb.com/courses || fas fa-book
+  师资力量: https://www.zkzxgzb.com/teachers || fas fa-chalkboard-teacher
+  校园活动: https://www.zkzxgzb.com/events || fas fa-calendar-alt
+  办学成果: https://www.zkzxgzb.com/achievements || fas fa-trophy
+  联系我们: https://www.zkzxgzb.com/contact || fas fa-envelope
 
 # --------------------------------------
 # 代码块设置
@@ -172,7 +174,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://zkzxgzb.com
+  author_href: https://www.zkzxgzb.com
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -209,7 +211,7 @@ footer:
     <p>
       <span style="color: #8B0000; font-weight: bold;">惠州仲恺中学</span> | 
       <span>广东省一级学校</span> | 
-      <a href="https://zkzxgzb.com" target="_blank" rel="noopener">返回官网</a>
+      <a href="https://www.zkzxgzb.com" target="_blank" rel="noopener">返回官网</a>
     </p>
     <p style="font-size: 12px; color: #666;">
       地址：广东省惠州市仲恺高新区陈江街道 | 电话：0752-3323215
@@ -237,7 +239,7 @@ aside:
         enable: true
         icon: fas fa-home
         text: 返回官网
-        link: https://zkzxgzb.com
+        link: https://www.zkzxgzb.com
     card_announcement:
       enable: true
       content: 欢迎访问仲恺中学博客！
@@ -682,7 +684,7 @@ inject:
         if (footer) {
           var backLink = document.createElement('div');
           backLink.style.cssText = 'text-align: center; padding: 10px; font-size: 14px;';
-          backLink.innerHTML = '<a href="https://zkzxgzb.com" style="color: #8B0000; text-decoration: none;">← 返回仲恺中学官网</a>';
+          backLink.innerHTML = '<a href="https://www.zkzxgzb.com" style="color: #8B0000; text-decoration: none;">← 返回仲恺中学官网</a>';
           footer.appendChild(backLink);
         }
       });
