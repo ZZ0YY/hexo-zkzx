@@ -190,9 +190,9 @@ jsonContent:
     link: true
     permalink: true
     excerpt: true
-    keywords: true
+    keywords: false
     text: true
-    raw: false
+    raw: true
     content: false
     author: true
   
@@ -210,9 +210,9 @@ jsonContent:
     permalink: true
     excerpt: true
     description: true
-    keywords: true
+    keywords: false
     text: true
-    raw: false
+    raw: true
     content: false
     author: true
     categories: true
